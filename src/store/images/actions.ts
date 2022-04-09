@@ -1,8 +1,5 @@
-import axios from "axios";
 import images from "../../app/data/images.json";
 import { Image } from "./types";
-
-const API_URL = "https://localhost:8080/v1";
 
 export async function getImages() {
   const persistData = localStorage.getItem("persist:root");
